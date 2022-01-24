@@ -1,0 +1,91 @@
+.c-task{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(152, 189, 189);
+    padding-top: 5px;
+    
+
+
+}
+
+.todotext{
+    font-size: 25px;
+}
+.creat-btn{
+    background-color: rgb(72, 72, 202);
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.creat-btn:hover{
+    cursor: pointer;
+    background-color: rgb(21, 21, 34);
+    color: aliceblue;
+} 
+
+.inputbox, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.inputbox-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #d3bfbf;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 1000px;
+    min-width: 100px;
+    height: 350px;
+}
+
+.close-inputbox-ADD {
+    position: absolute;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+.close-inputbox-Cancel{
+    position: absolute;
+    padding: 5px 7px;
+}
+
+.form-g {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+}
+.form-g input{
+    border: 1px solid red;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.form-g textarea {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 100%;
+}
+label{
+    font-size: 20px;
+}
+.show-status{
+
+}
