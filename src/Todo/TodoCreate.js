@@ -125,11 +125,11 @@ export default function TodoCreate() {
                     </div>
                 )}
             </div>
-
+                    <div className='todoboxmain'>
             <Card  taskList={todo} status="Todo"  toggle={toggle}  seteditId= {seteditId} name={setTaskName} des={setDes} setstatus={setStatus} />
             <Card  taskList={inprogress} status="Inprogress" toggle={toggle} seteditId= {seteditId} name={setTaskName} des={setDes} setstatus={setStatus} />
             <Card  taskList={done} status ="Done" toggle={toggle} deletee={deletee}/>
-  
+            </div>
   </>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Createcard.css'
 
 
 export default function Createcard(props) {
@@ -34,7 +35,7 @@ export default function Createcard(props) {
                    
   return (
      <>
-    <div className="Main-list-box3">
+    <div className="Main-list-box">
         
           <div className="listbox TodoList">
             <p className="ReportName">{props.status}</p>

@@ -1,0 +1,52 @@
+.Main-list-box{
+ margin: 20px;
+ 
+}
+
+
+.listbox {
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 2%;
+  color: white;
+  height: fit-content;
+  border: 2px solid rgb(53, 42, 42);
+}
+.TodoList {
+  background-color: rgb(140, 45, 218);
+  width: 400px;
+}
+.ProgressList {
+  width: 400px;
+  background-color: rgb(124, 106, 224);
+}
+.DoneList {
+  width: 400px;
+  background-color: rgb(90, 226, 90);
+}
+.ReportName {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+ul {
+ 
+    
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  height: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0;
+  padding: 3%;
+  border: 2px solid rgb(53, 42, 42);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.right {
+  float: right;
+}
